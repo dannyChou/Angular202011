@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'myTest';
+  title = 'My APP';
+  url = 'http://blog.miniasp.com/';
+  imgurl = '/assets/images/logo.png';
+
+  constructor(){
+    setTimeout(() => {
+      this.title = 'The Will Will Web';
+    }, 2000);
+
+  }
 }
